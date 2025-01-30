@@ -1,0 +1,145 @@
+
+#homebody1{
+    margin: 0;
+   
+    width: 100%;
+    height: 200vh;
+    background-color: #0A1828; 
+  /* Add padding to account for fixed side nav */
+    position: relative;
+}
+
+#homenav1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90px;
+    background-color: #178582;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+#coin1{
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    display: inline-flex;
+    margin-left: 700px;
+    border-radius: 10px;
+    background-color: #308e8b;
+}
+
+#context1{
+    color: #F5F5DC;
+    margin-left: 30px;
+    padding: 5px 15px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #308e8b;
+}
+
+#homelog1{
+    width: 123px;
+    height: 90px;
+}
+
+#homehor1{
+    background-color: #178582;
+    height: 100vh;
+    width: 100px;
+    border-inline-end: #0A1828;
+    display: flexbox;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 90px;
+    z-index: 999;
+}
+
+#coursedetail{
+    color: aliceblue;
+    gap: 30px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    overflow-y: auto;
+     /* Add padding to move content below navbar */
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h2{
+    font-size: 20px;
+}
+
+a:hover{
+    color: aquamarine;
+}
+#icon1{
+    color: black;
+    /* margin-top: -80vh; */
+    margin-top: 800px;
+    margin-left: 110px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#icon:hover{
+    color: aquamarine;
+    
+}
+#icon:active {
+    transform: scale(2.5); /* scale the icon to 1.5 times its size when clicked */
+}
+
+#img{
+    height: 280px;
+    margin-left: 10px;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: inline-block;
+    border: 2px solid #6ea7a5;
+}
+
+img{
+    height: 110px;
+}
+
+/* Add styles for carousel container */
+.carousel-container {
+    padding-top: 100px; /* Space below navbar */
+    width: calc(100% - 100px); /* Account for side nav */
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+}
+
+h4{
+    color: white;
+}
+
+
+#codebody{
+    height:"80px";
+    background-color: #0A1828;
+    height: 90px;
+    margin-left: 110px;
+    margin-top: 90px;
+
+}
+
+#navbtn{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 1px;
+    border: 2px solid #178582;
+    background-color: #178582;
+}

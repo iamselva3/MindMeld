@@ -1,0 +1,56 @@
+/* html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+} */
+
+
+/* body{        
+    /* @apply bg-customblack; */
+    
+/* } */ */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+
+#login-page{        
+    background-color: black;
+    height: 110vh;
+    margin-top: -20px;
+    width: 98.7vw;
+    display: inline-block;
+    
+}
+#login{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-size:20px;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    width: 60vh;
+    margin-top: -500px;
+    margin-left: 650px;
+
+}
+
+#loginlogo{
+    height: 500px;
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#input{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    margin-top: 50px;
+    font-size: larger;
+   font-weight: 500px;
+}

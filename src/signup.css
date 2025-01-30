@@ -1,0 +1,28 @@
+#signup{
+    background-color: rgb(2, 26, 47);
+    color: white;
+    height: 105vh;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#signuppic{
+    height: 580px;
+    width: 500px;
+}
+
+#signin{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: larger;
+    
+    color: white;
+    height: 50vh;
+    width: 60vh;
+    margin-top: -600px;
+    margin-left: 650px;
+
+}

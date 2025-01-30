@@ -1,0 +1,43 @@
+/* Forgot page styles */
+/* body{
+ 
+  color: white;
+  display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: larger;
+} */
+
+
+
+#forgot-page {
+    background-color: rgb(2, 26, 47);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: larger;
+  }
+
+  #fbpic{
+    height: 623px;
+    margin-left: 700px;
+    margin-top: -90vh;
+  }
+
+  #bluelogo{
+    margin-left:220px ;
+    height: 200px;
+  }
+  
+  #inpu{
+    margin-left: 200px;
+  }
