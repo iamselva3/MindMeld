@@ -11,12 +11,12 @@ import Forgot from './fp.jsx';
 import Signup from './signup.jsx';
 import App from './app.jsx';
 import Home2 from './home2.jsx';
-import App1 from './app1.jsx';
+// import App1 from './app1.jsx';
 import Product from './product.jsx';
 import Home3 from './home3.jsx';
 import Courselib from './Courselib.jsx';
 import Combo from './Combo.jsx';
-import Invoice1 from './invoice.jsx';
+// import Invoice1 from './invoice.jsx';
 import Leader from './Leader.jsx';
 
 createRoot(document.getElementById('root')).render(
@@ -37,7 +37,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/product' element={<Home3 />} />
         <Route path='/courselib' element={<Courselib />} />
         <Route path='/combo' element={<Combo />} />
-        <Route path='/invoice1' element={<Invoice1 />}/>
+{/*         <Route path='/invoice1' element={<Invoice1 />}/> */}
         <Route path='/leader' element={<Leader />} /> 
         
       </Routes>
